@@ -1,0 +1,25 @@
+body {
+    background-color: var(--background-colour);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, 
+html {
+    height: 100%;
+}
+
+footer {
+    background-color: var(--navbar-background-colour);
+    color: var(--navlink-colour); 
+    display: flex;
+    flex-shrink: 0;
+    font-size: 12px;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}
