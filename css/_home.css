@@ -13,20 +13,21 @@
     background-color: var(--navbar-background-colour);
     border-color: white;
     border-radius: 15px;
+    color: #fff;
     height: 425px;
     width: 425px;
 }
 
-.btn:hover {
+.btn:focus, .btn:hover {
     background: #FFFFFF;
     border: none;
 }
 
-.btn-border, .btn-border:hover {
+.btn-border, .btn-border:focus, .btn-border:hover {
     border: 3px solid #C32C72;
 }
 
-.btn-fullcolour, .btn-fullcolour:hover {
+.btn-fullcolour, .btn-fullcolour:focus, .btn-fullcolour:hover {
     background-color: var(--navlink-colour-hover);
     border: 3px solid #FFF;
 }
