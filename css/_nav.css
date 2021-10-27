@@ -1,0 +1,18 @@
+.navbar {
+    background-color: var(--navbar-background-colour) !important;
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    color: var(--title-colour) !important;
+    font-size: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--navlink-colour);
+    font-size: 16px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: var(--navlink-colour-hover);
+}
