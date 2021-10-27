@@ -1,0 +1,32 @@
+.btn-toolbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 0 200px;
+  }
+
+.mr-2, .mx-2 {
+    margin-right: 0 !important;
+}
+
+.btn {
+    background-color: var(--navbar-background-colour);
+    border-color: white;
+    border-radius: 15px;
+    height: 425px;
+    width: 425px;
+}
+
+.btn:hover {
+    background: #FFFFFF;
+    border: none;
+}
+
+.btn-border, .btn-border:hover {
+    border: 3px solid #C32C72;
+}
+
+.btn-fullcolour, .btn-fullcolour:hover {
+    background-color: var(--navlink-colour-hover);
+    border: 3px solid #FFF;
+}
