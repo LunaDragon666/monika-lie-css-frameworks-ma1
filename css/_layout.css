@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+* {
+    box-sizing: border-box;
+  }
+
 body {
     background-color: var(--background-colour);
     display: flex;
@@ -47,5 +51,8 @@ footer {
         line-height: 2rem;
         padding: 20px !important; 
         text-align: center;
+    }
+    h1 {
+        padding: 40px 0 !important;
     }
 }
