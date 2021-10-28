@@ -1,8 +1,5 @@
 .btn-toolbar {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin: 0 0 200px;
+    padding-bottom: 200px;
   }
 
 .mr-2, .mx-2 {
@@ -14,8 +11,8 @@
     border-color: white;
     border-radius: 15px;
     color: #fff;
-    height: 425px;
-    width: 425px;
+    height: 263px;
+    width: 263px;
 }
 
 .btn:focus, .btn:hover {
