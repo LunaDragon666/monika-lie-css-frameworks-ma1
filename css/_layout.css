@@ -42,10 +42,7 @@ footer {
 }
 
 @media (max-width: 1000px) {
-    .navbar {
-        padding: 5px 25px !important;
-    }
-    footer {
+footer {
         display: flex;
         flex-direction: column;
         line-height: 2rem;
