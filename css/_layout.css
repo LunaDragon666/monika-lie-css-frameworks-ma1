@@ -26,6 +26,7 @@ footer {
     flex-shrink: 0;
     font-size: 12px;
     justify-content: space-between;
+    padding: 0.75rem 0;
 
 }
 
