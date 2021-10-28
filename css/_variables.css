@@ -1,7 +1,7 @@
 :root {
     --background-colour: #E5E5E5;
-    --boxshadow-colour: #6A6A6A;
-    --content-padding: 0 5rem;
+    --boxshadow-colour: rgba(106, 106, 106, 0.25) 0px 6px 12px;
+    --content-padding: 0.5rem 4rem;
     --heading-colour: #463F3A;
     --navbar-background-colour: #FFFFFF;
     --navlink-colour: #8D8D8D;
