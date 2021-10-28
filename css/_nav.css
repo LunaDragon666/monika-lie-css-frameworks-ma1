@@ -32,3 +32,17 @@
 .navbar-light .navbar-nav .active > .nav-link {
     color: var(--navlink-colour-hover);
 }
+
+/* Media queries */
+@media (max-width: 1000px) {
+    .navbar {
+        padding: 5px 25px !important;
+    }
+    .navbar-nav {
+        margin-bottom: 50px;
+        margin-top: 10px;
+    }
+    .navbar-toggler {
+        padding: 0;
+    }
+}
