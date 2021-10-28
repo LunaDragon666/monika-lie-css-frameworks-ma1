@@ -1,17 +1,21 @@
 .btn-toolbar {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(345px, 1fr) );
     gap: 30px 25px;
-    justify-content: center;
     margin-bottom: 200px;
   }
 
+  .mr-2, .mx-2 {
+    margin-right: 0 !important;
+}
+
 .btn {
     background-color: var(--navbar-background-colour);
-    border-color: white;
+    border: 3px solid white;
     border-radius: 15px;
     box-shadow: var(--boxshadow-colour);
     color: #fff;
-    height: 415px;
-    width: 415px;
+    height: 345px;
 }
 
 .btn:focus, .btn:hover {
@@ -26,4 +30,10 @@
 .btn-fullcolour, .btn-fullcolour:focus, .btn-fullcolour:hover {
     background-color: var(--navlink-colour-hover);
     border: 3px solid #FFF;
+}
+
+@media (max-width: 1000px) {
+    .btn-toolbar {
+        padding: 0 30px !important;
+    }
 }
