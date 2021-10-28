@@ -34,6 +34,7 @@
 
 @media (max-width: 1000px) {
     .btn-toolbar {
+        grid-template-columns: repeat( auto-fit, minmax(315px, 1fr) );
         padding: 0 30px !important;
     }
 }
