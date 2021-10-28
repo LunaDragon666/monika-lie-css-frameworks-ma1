@@ -15,18 +15,18 @@ html {
 h1 {
     color: var(--heading-colour);
     font-size: 32px;
-    padding: 75px 0;
+    padding: 65px 0;
     text-align: center;
 }
 
 footer {
     background-color: var(--navbar-background-colour);
-    color: var(--navlink-colour); 
+    color: var(--navlink-colour);
     display: flex;
     flex-shrink: 0;
     font-size: 12px;
     justify-content: space-between;
-    padding: 1em;
+
 }
 
 .wrapper {
