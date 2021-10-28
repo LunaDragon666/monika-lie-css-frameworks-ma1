@@ -1,6 +1,7 @@
 /* NAVIGATION BAR */
 .navbar {
     background-color: var(--navbar-background-colour) !important;
+    padding: 0;
     text-transform: uppercase;
 }
 
