@@ -165,18 +165,6 @@ h1 {
 }
 
 /* FOOTER */
-footer {
-  background: var(--bar);
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  font-size: 12px;
-  padding: 0.75rem;
-}
-
-footer, footer a, footer a:hover {
-  color: var(--text-colour);
-}
-  
 footer .container {
   display: flex;
   flex-direction: column;
@@ -187,12 +175,24 @@ footer .container {
   text-align: center;
 }
 
+.footer {
+  background: var(--bar);
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-size: 12px;
+  padding: 0.75rem;
+}
+
+.footer, .footer__copyright, .footer__link, .footer__link:hover {
+  color: var(--text-colour);
+}
+
 footer a {
   cursor: pointer;
 }
 
 footer a:hover {
-  color: none;
+
   text-decoration: none;
 }
 
