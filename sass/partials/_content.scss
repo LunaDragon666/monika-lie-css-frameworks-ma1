@@ -1,27 +1,28 @@
 .gridbox__container {
     display: grid;
     grid-template-columns: repeat(auto-fill, 300px);
-    grid-gap: 1.5rem;
+    grid-gap: 1.75rem 2rem;
     justify-content: center;
     margin-bottom: 15rem;
     margin-top: 2rem;
+    max-width: 100%;
 
     &__item {
         box-shadow: $box-shadow;
-        background-color: white;
-        border: 3px solid #FFF;
+        background-color: getColour(boxcolour);
+        border: 3px solid getColour(boxcolour);
         border-radius: 5%;
         padding-top: 100%;
         position: relative;
     }
 
     &--border {
-       background: getColour(defaultbox);
-       border: 3px solid #C32C72;
+       background: getColour(boxcolour);
+       border: 3px solid getColour(colourfill);
     }
 
     &--fill {
-        background: getColour(colourbox);
-        border: 3px solid #FFF; 
+        background: getColour(colourfill);
+        border: 3px solid getColour(boxcolour); 
     }
 }
