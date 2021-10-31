@@ -9,6 +9,7 @@
     &__item {
         box-shadow: $box-shadow;
         background-color: white;
+        border: 3px solid #FFF;
         border-radius: 5%;
         padding-top: 100%;
         position: relative;
@@ -16,9 +17,11 @@
 
     &--colour-corner {
        background: getColour(defaultbox);
+       border: 3px solid #C32C72;
     }
 
     &--full-colour {
-        background: getColour(colourbox); 
+        background: getColour(colourbox);
+        border: 3px solid #FFF; 
     }
 }
