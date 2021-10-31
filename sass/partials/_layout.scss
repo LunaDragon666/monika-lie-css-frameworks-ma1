@@ -14,3 +14,11 @@ body {
     font-family: $font;
     margin: 0;
 }
+
+.wrapper {
+    flex: 1 0 auto;
+}
+  
+.container {
+    margin: 0 auto;
+}
