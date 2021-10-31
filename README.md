@@ -9,4 +9,4 @@ In the main content of this page, which is in this case `gridbox__container`, I 
 ### Footer
 I have deliberately excluded the footer from the "wrapper" to make it remain at the bottom of the page.
 #### Reflection note 
-The most challenging aspect I found within this task was to find and make as "logical" Bootstrap and SASS classes as possible, in addition to BEM-classes. 
+The most challenging aspect I found within this task was to find and make as "logical" Bootstrap and Sass classes as possible, in addition to BEM-classes inside the css/scss. 
