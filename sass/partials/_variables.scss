@@ -4,13 +4,15 @@ $menu: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='ht
 $tablet-width: 768px;
 
 $colours: (
-    primary: #E5E5E5,
+    primary: #E5E5E5, // background colour 
     secondary: #F4F3EE,
-    boxcolour: #C32C72,
-    defaultbox: #FFFFFF,
+    /* TYPOGRAPHY PROPERTIES*/
     heading: #463F3A,
+    text: #8D8D8D,
     title: #262626,
-    breadcrumb: #8D8D8D,
+    /* "CONTENT" PROPERTIES*/
+    boxcolour: #FFFFFF,
+    colourfill: #C32C72,
 );
 
 @function getColour($colour) {
