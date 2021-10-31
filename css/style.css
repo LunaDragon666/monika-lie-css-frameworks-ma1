@@ -107,6 +107,52 @@ h1 {
     }
   }
 
+  /* (MAIN) CONTENT ~ HOMEPAGE */
+  .gridbox__container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (300px)[auto-fill];
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-gap: 1.75rem 2rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 15rem;
+    margin-top: 2rem;
+    max-width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .gridbox__container {
+        -ms-grid-columns: (415px)[auto-fill];
+        grid-template-columns: repeat(auto-fill, 415px);
+        margin-top: 0;
+        }
+    }
+
+  .gridbox__item, .gridbox__item--colour-corner, .gridbox__item--full-colour {
+    box-shadow: rgba(106, 106, 106, 0.25) 0px 6px 12px;
+    border-radius: 5%;
+    padding-top: 100%;
+    position: relative;
+  }
+
+  .gridbox__item, .gridbox__item--colour-corner {
+    background: white;
+  }
+
+  .gridbox__item, .gridbox__item--full-colour {
+    border: 3px solid #FFFFFF;
+  }
+
+  .gridbox__item--colour-corner {
+    border: 3px solid #C32C72;
+  }
+
+  .gridbox__item--full-colour {
+    background-color: #C32C72;
+  }
+
 /* FOOTER */
 footer {
     background: var(--bar);
