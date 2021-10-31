@@ -1,0 +1,8 @@
+h1 {
+    color: getColour(heading);
+    font-family: $font;
+    font-size: 32px;
+    font-weight: normal;
+    margin: 35px 0 10px;
+    text-align: center;
+}
