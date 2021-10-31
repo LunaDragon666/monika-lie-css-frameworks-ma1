@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 :root {
   --bar: #F5F5EE; /* background-color for both nav- and footer bar */
   --fill-colour: #C32C72; /* active link from navbar, and full colour box from "content" */   
