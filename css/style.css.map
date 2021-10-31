@@ -12,7 +12,5 @@
         "../sass/partials/_footer.scss"
     ],
     "names": [],
-    "file": 
-        "style.css",
-        "media.css"
+    "file": "style.css"
 }
