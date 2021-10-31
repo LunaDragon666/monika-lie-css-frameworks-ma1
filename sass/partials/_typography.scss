@@ -3,6 +3,12 @@ h1 {
     font-family: $font;
     font-size: 32px;
     font-weight: normal;
-    margin: 35px 0 10px;
+    margin: 120px 0 30px;
     text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+    h1 {
+      margin: 125px 0 75px;
+    }
 }
