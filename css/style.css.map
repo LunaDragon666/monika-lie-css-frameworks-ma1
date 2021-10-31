@@ -6,6 +6,7 @@
         "../sass/partials/_variables.scss",
         "../sass/partials/_layout.scss",
         "../sass/partials/_nav.scss",
+        "../sass/partials/_content.scss",
         "../sass/partials/_typography.scss",
         "../sass/partials/_footer.scss"
     ],
