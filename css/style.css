@@ -47,31 +47,18 @@ body {
 
 /* NAVBAR */
 nav .container {
-   max-width: 97%;
+  max-width: 97%;
 }
 
   nav a {
-    text-transform: uppercase;
-  }
+  text-transform: uppercase;
+}
 
   .navbar {
     background: var(--bar);
-  }
-
-  .navbar-light .navbar-nav .nav-link {
-    color: var(--text-colour) !important;
-    font-size: 18px !important;
-}
-
-.navbar-light .navbar-nav .active > .nav-link {
-    color: var(--fill-colour) !important;
-}
-
-  .navbar-brand {
-    color: var(--title);
-    font-size: 36px !important;
-    padding-bottom: 0 !important;
-    padding-top: 0 !important;
+    position: absolute !important; 
+    width: 100%;
+    z-index: 1;
   }
 
   .navbar-nav {
@@ -83,15 +70,35 @@ nav .container {
     padding-left: 0;
   }
 
-  @media (min-width: 768px) {
-    .navbar-nav .nav-link {
-      padding-left: 1rem !important;
-    }
-    .navbar-nav {
-      margin-bottom: 0 !important;
-      margin-top: 0;
-    }
+  /* Title */ 
+  .navbar-brand {
+    color: var(--title);
+    font-size: 36px !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
   }
+
+    /* Links */ 
+    .navbar-light .navbar-nav .nav-link {
+      color: var(--text-colour) !important;
+      font-size: 18px !important;
+    }
+  
+    .navbar-light .navbar-nav .active > .nav-link {
+      color: var(--fill-colour) !important;
+    }
+
+@media (min-width: 768px) {
+  .navbar-nav .nav-link {
+    padding-left: 1rem !important;
+  }
+
+  .navbar-nav {
+    margin-bottom: 0 !important;
+    margin-top: 0;
+  }
+
+}
 
 /* Hamburger menu */
 .navbar-toggler {
@@ -108,13 +115,13 @@ h1 {
   color: var(--heading);
   font-size: 32px !important;
   font-weight: normal !important;
-  margin: 35px 0 10px !important;
+  margin: 120px 0 30px !important;
   text-align: center;
 }
 
 @media (min-width: 768px) {
   h1 {
-    margin: 65px 0 !important;
+    margin: 125px 0 75px !important;
   }
 }
 
@@ -192,7 +199,6 @@ footer a {
 }
 
 footer a:hover {
-
   text-decoration: none;
 }
 
@@ -204,3 +210,4 @@ footer a:hover {
 }
   
   /*# sourceMappingURL=style.css.map */
+  
